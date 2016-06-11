@@ -1,0 +1,39 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.DetailsFragment">
+
+        <LinearLayout
+            android:id="@+id/movieTitlePlaceHolder"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#009688">
+
+            <TextView
+                android:id="@+id/detail_title"
+                style="@style/movietitle" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/detail_image"
+            style="@style/imageStyle" />
+
+        <TextView
+            android:id="@+id/detail_date"
+            style="@style/datestyle" />
+
+        <TextView
+            android:id="@+id/detail_rating"
+            style="@style/ratingStyle" />
+
+        <TextView
+            android:id="@+id/detail_summary"
+            style="@style/summaryStyle" />
+
+    </RelativeLayout>
+</ScrollView>
